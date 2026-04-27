@@ -33,7 +33,7 @@ K = np.array([[617.38495106,   0.0,         313.36845276],
 dist_coeffs = np.array([[ 1.40800417e-01, -4.46755128e-01,
                            2.66829535e-03,  2.96997280e-04,
                            7.94140375e-01]], dtype=np.float32)
-tilt = np.radians(2)
+tilt = np.radians(8)
 
 def make_cam_to_robot(pitch_deg):
     p  = np.radians(pitch_deg)
